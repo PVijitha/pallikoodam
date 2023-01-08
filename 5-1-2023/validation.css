@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    padding: 20vh;
+    margin-top: 15vh;
+    height: 35vh;
+    width: 12vw;
+    background-color:white;
+}
+h1{
+    display:none;
+    font-size:10px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin-bottom: 7px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

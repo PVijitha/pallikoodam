@@ -1,0 +1,23 @@
+button{
+    background-color: hsl(264, 16%, 94%);
+    border-radius:none;
+    color: rgb(37, 42, 46);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px hsl(0, 13%, 92%) ;
+    transition-duration: 0.5s;
+    }
+    button:hover{
+        background-color: hsl(54, 68%, 86%);
+        box-shadow: -5px 5px 5px;
+        animation-name: animation;
+        animation-duration: 2s;
+        }
+        body{
+            background-image: url(image/bg_car.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        td{
+            color: #0ffff0;
+        }

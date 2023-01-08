@@ -1,0 +1,29 @@
+// {
+//     "parserOptions": {
+//         "ecmaVersion": 6
+//     },
+//     "env": {
+//         "browser": true //for no error in console.log
+//     },
+     
+//     "extends":[
+//         "eslint:recommended"
+//     ],
+//     "rules": {
+//         "no-unused-vars": "error",
+//         "prefer-const": "warn",
+//         "camelcase": "warn",
+//         "quotes": [1, "backtick",{
+//             "avoidEscape":true
+//             // "allowTemplateLiterals":true,
+
+
+//     }],
+//     "spaced-comment":"warn",
+//     "semi":"error",
+//     "space-infix-ops": "warn",
+//     "comma-spacing": "warn"
+
+
+//     }
+// }

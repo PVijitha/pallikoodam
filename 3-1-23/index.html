@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <input type=" text" tabindex="1" id="target" onclick="execute(event)">
+    <button onclick="selectTextBox">Select text box</button>
+   <script>
+    const target = document.getElementById("target");
+    function selectTextBox(){
+        target.focus();
+    }
+    function executeEvent(e){
+        console.log(e);
+    }
+   </script> -->
+    <!-- <input type="text" id="target" onkeyup = "executeEvent(event)"/>
+   <h1 id="result"></h1>
+   <script>
+    const res = document.getElementById("result");
+    function executeEvent(e){
+        res.innerText = e.target.value;
+    }
+   </script> -->
+    <!-- <div id ="button" style="height: 100px; background-color: yellow; border-radius: 40px;"></div>
+   <hr>
+   <input type="range" min = "10" max = "100" value="50" onchange="executeEvent(event)">
+   <script>
+    const res = document.getElementById("button");
+    function executeEvent(e){
+        res.style.width =`${e.target.value}px`;
+    }
+   </script> -->
+    <!-- <button>Click me</button>
+   <button>Click me</button>
+   <div>
+   <button>Click me</button>
+   <button class="click">Click me</button>
+   <button class="click">Click me</button>
+   </div>
+    <script>
+        const button = document.querySelectorAll(`div .click`);
+        button.forEach(click => {
+            click.style.background= `green`;
+        });
+    </script> -->
+    <!-- <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <script>
+        document.querySelectorAll('button').forEach(element => {
+            element.addEventListener('click',(e)=>{
+                e.target.innerText ='Clicked';
+            })    
+        });
+    </script> -->
+    <!-- <script>
+    var tag = document.createElement('h1');
+    tag.innerText = 'H1 Tag';
+    document.body.appendChild(tag);
+</script> -->
+    <div>
+        <h1 id="target">Main Heading</h1>
+        <!-- <p>Paragraph</p> -->
+    </div>
+    <script>
+        const target = document.querySelector('#target');
+        console.log(target.parentElement);
+    </script>
+</body>
+
+</html>

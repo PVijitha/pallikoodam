@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      background-color: rebeccapurple;
+      border: 2px solid black;
+      /* height: 70px; */
+    }
+
+    .container {
+      display: grid;
+      /* grid-template-columns:minmax(250px, 75%) minmax(20px, 25%) ; */
+      grid-template-columns: repeat(5, 1fr);
+      /* grid-column-gap: 5px;*/
+      grid-row-gap: 10px;
+      grid-template-rows: 1fr 4fr 5fr 6fr;
+      gap: 10px;
+      height: 400px;
+    }
+
+    .span-2 {
+      grid-column: 5;
+      grid-column: span;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box span-2"></div>
+  </div>
+</body>
+
+</html>

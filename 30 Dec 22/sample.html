@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id ="p1">Hello world</p>
+    <script>
+      <button onclick="handleClick(event)">Click me first</button>
+    //   <button onclick="handleClick(event)">Click me</button>
+    //   <p onclick="handleClick(event)">hello world</p>
+
+        let e = document.getElementById('p1');
+        e.style.color = 'blue';
+        e.style.textAlign = 'center';
+        e.style.fontWeight = 'bold';
+        function handleClick(e) {
+            console.log('button clicked');
+            alert('you want open this page');
+            console.log(e);
+            e.target.innerText = 'Clicked';
+            e.target.style.color = 'green';
+        }
+    </script>
+</body>
+
+</html>

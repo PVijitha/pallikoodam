@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: hsl(272, 100%, 56%);
+            border-radius: none;
+            color: hsl(208, 100%, 97%);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: -5px -5px 5px hsl(0, 0%, 67%);
+            transition-duration: 0.5s;
+        }
+
+        button:hover {
+            background-color: hsl(0, 0%, 67%);
+            box-shadow: -5px 5px 5px;
+            animation-name: animation;
+            animation-duration: 2s;
+        }
+
+        @keyframes animation {
+            20% {
+                transform: scale(1.1);
+            }
+
+            40% {
+                transform: scale(0.9);
+            }
+
+            80% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <b></b>
+    <i></i>
+    <u></u>
+    <p>main paragragh The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display
+        them correctly.
+        A browser does not display the HTML tags, but uses them to d etermine how to display the document:</p>
+    A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+    <img src="pic.jpg" height="500" alt="">
+    <ol start="26" type="A">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <ul>
+    </ul>
+    <table border="1'">
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>Name</td>
+                <td>email</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>user</td>
+                <td>seven@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button>click</button>
+</body>
+
+</html>

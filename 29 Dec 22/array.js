@@ -1,0 +1,17 @@
+let array = [1, 2, 3];
+console.log(typeof array);
+const number = [1, 2, 3, `four`];
+number[4] = 5;
+number.push(6, 7);
+console.log(number[3]);
+console.log(number);
+// const firstArray = [1, 2, 3, 4];
+// const secondArry = [5, 6, 7, 8];
+// firstArray.push(...secondArry);
+// const thirdArry = firstArray.concat(secondArry);
+// console.log(thirdArry);
+// let firstArray = ["Dona", "Diya", "Fidha", "Midhun"];
+// let secondArry = ["Sony", "Maya", "Lipa", "Krishna"];
+// firstArray.push(...secondArry);
+// const thirdArray = firstArray.concat(secondArry);
+// console.log(thirdArray);

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    height: 60px;
+    background-color: rgb(87, 11, 119);
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    color: rgb(57, 230, 230);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 5px #999;
+}
+
+.logo {
+    font-size: 1.4em;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav>a {
+    color: white;
+    margin-left: 7px;
+    text-decoration: none;
+
+}

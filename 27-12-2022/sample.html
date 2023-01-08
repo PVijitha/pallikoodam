@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .avatar {
+            height: 50px;
+            width: 50px;
+        }
+
+        .avatar:hover {
+            z-index: 5;
+            transform: scale(1.1);
+
+        }
+
+        .overlap {
+            margin-left: -15px;
+        }
+
+        .email:hover::after {
+            content: '\2709';
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container-fluid"></div>
+    <div class="col-sm-6 offset-sm-3">
+        <h1 class="text-center">login</h1>
+         <form>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label->First name</label>
+                    <input type="text" name="FirstName " id="FirstName" class="form-control">
+                </div>
+                <div class="col-sm-6">
+                    <label->Last Name</label>
+                    <input type="text" name="lastname " id="lastname" class="form-control">
+                </div>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"  id="email" class="form-control">
+            </div>
+            <div class="d-grid mt-3">
+                <button class="btn btn-primary">Button</button>
+            </div>
+         </form>
+    </div> -->
+    <!-- <div class="bg-primary border border-marging rounded shadow"> Div</div>
+    <div class="bg-primary mx-3"> Div</div>
+    <div class="bg-primary m-5"> Div</div>
+    <div class="bg-primary me-5"> Div</div> -->
+    <div class="container-fluid">
+        <table class="table table-dark ">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Avatar</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <!-- <img src="avatar1.png" alt="3" height="50px"> -->
+                        <div class="d-flex">
+                            <img src="avatar1.png" class="avatar round-circle">
+                            <img src="avatar2.png" class="avatar round-circle overlap">
+                        </div>
+                    </td>
+                    <td>vini</td>
+                    <td>
+                        <span class="email">vini@123</span>
+                        <span class="badge round-pill bg-success">&check;</span>
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-warning">
+                                <span class="fa fa-eye"></span>
+                                view</button>
+                            <button class="btn btn-danger">
+                                <span class="fa fa-trash"></span>
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <!-- <img src="avatar2.png" alt="#" height="60px"> -->
+                    </td>
+                    <td>mini</td>
+                    <td><span class="email">mini@123</span>
+                        <span class="badge round-pill bg-success">&check;</span>
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-warning">
+                                <span class="fa fa-eye"></span>
+                                view</button>
+                            <button class="btn btn-danger">
+                                <span class="fa fa-trash"></span>
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

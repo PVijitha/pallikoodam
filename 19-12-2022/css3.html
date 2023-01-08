@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            position: relative;
+            margin-top: 50px;
+        }
+
+        .squre {
+            height: 150px;
+            width: 150px;
+        }
+
+        .s1 {
+            background-color: hsl(120, 100%, 25%);
+        }
+
+        .t {
+            margin-bottom: 50px;
+        }
+
+        .t2 {
+            margin-top: 80px;
+        }
+
+        input {
+            margin: 50px;
+            padding: 25px;
+        }
+
+        /* body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+    height:75px ;
+    background-color: teal;
+    position: sticky;
+    width: 100%;
+    top:0;
+    }
+    main{
+        height: 150vh;
+        background-color: rgb(141, 191, 234);
+        padding: 25px;
+    } */
+        .parent {
+            background-color: hsl(160, 100%, 75%);
+            display: flex;
+            flex-direction: column-reverse;
+            flex-direction: row-reverse;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            height: 100vh;
+        }
+
+        .circle {
+            background-color: hsl(0, 100%, 50%);
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="t1">heading1</h1>
+    <h1 class="t2">heading2 </h1>
+    <input type=" text" name="name" id=nme>
+
+    <button>button</button>
+    <div class="nav"></div>
+    <main>
+        <h1>main content</h1>
+    </main>
+    <div class="parent">
+        <div class="circle">
+            <h1>1</h1>
+        </div>
+        <div class="circle">
+            <h2>2</h2>
+        </div>
+</body>
+
+</html>

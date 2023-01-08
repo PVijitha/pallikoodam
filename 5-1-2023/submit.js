@@ -15,8 +15,7 @@ function handleSubmit(e){
         password.style.border = '1px solid red';
         passwordErrorDisplay.classList.remove('d-none');
         passwordErrorDisplay.classList.innerHTML += `<li>
-         password must be at least 6 character</li>`;
-        
+         password must be at least 6 character</li>`;   
     }
     if(passwordvalue.includes('')){
         password.style.border = '1px solid red';
@@ -32,10 +31,7 @@ function handleSubmit(e){
         age.style.border = '1px solid red';
         ageErrorDisplay.classList.remove('d-none');
         ageErrorDisplay.classList.innerHTML += `<li>
-         You must at least want 18 years</li>`;
-
+         You want at least 18 years </li>`;
     }
-    console.log(password);
-
-   
+    console.log(password);  
 }
