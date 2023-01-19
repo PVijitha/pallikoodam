@@ -1,0 +1,15 @@
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.csproj.AssemblyReference.cache
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.AssemblyInfoInputs.cache
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.AssemblyInfo.cs
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.csproj.CoreCompileInputs.cache
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\bin\Debug\net6.0\Thus192023.exe
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\bin\Debug\net6.0\Thus192023.deps.json
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\bin\Debug\net6.0\Thus192023.runtimeconfig.json
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\bin\Debug\net6.0\Thus192023.dll
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\bin\Debug\net6.0\Thus192023.pdb
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.dll
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\refint\Thus192023.dll
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.pdb
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\Thus192023.genruntimeconfig.cache
+C:\Users\vijitha.p\source\repos\Thus192023\Thus192023\obj\Debug\net6.0\ref\Thus192023.dll

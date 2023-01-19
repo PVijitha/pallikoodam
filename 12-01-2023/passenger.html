@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p id="para"></p> -->
+    <script>
+        let user = ["Jeny", "karthik Divakaran", "keerthi Suresh", "Ananya", "Rimi Tomy", "Jeny", "Nithin", "Ravi Krishnan", "Hridhya", "Aadhi"];
+        // for (let i = 0; i < user.length; i++) {
+        //     for (let j = i + 1; j < user.length; j++) {
+        //            if(user[j].toLocaleLowerCase < user[i].toLocaleLowerCase){
+        //             let temp = user[i];
+        //             user[i] = user[j];
+        //             user[j] = temp;
+        //            }
+        //     }
+
+        // }
+        // console.log(user);
+        // let another = [];
+        // let j = 0;
+        // for (let i = user.length-1; i >=0; i--) {
+        //    another[j] = user[i];
+        //    j++;
+        // }
+        // console.log(another);
+        // let flag = 0;
+        // let pos = 0;
+        // let temp = 0;
+        // let pro = prompt("Enter the name to be search");
+        // for (let i = 0; i < user.length; i++) {
+        //     if(user[i] == pro){
+        //       flag = 1; 
+        //       temp = pos;
+        //       console.log(pos);
+        //     }
+        //     pos++;
+        // }
+        // if(flag == 1){
+        //     document.write(`name is found at position ${temp}`);
+        // }
+        // else{
+        //     document.write("The search name is not found");
+        // }
+        // document.write("<br><br>Length of the elements are")
+        // for (let i = 0; i < user.length; i++) {
+        //     document.write('<br><br>length of ',user[i],' is ',user[i].length);
+        // } 
+
+        // temp = [];
+        // para = document.getElementById("para");
+        // user.forEach(element => {
+        //     temp.push(element.split(" "));
+        // });
+        // console.log(temp);
+        // para.innerText = temp;
+        tem = [];
+        for (let i = 0; i < user.length; i++) {
+            for (let j = i + 1; j < user.length; j++) {
+                if (user[i] == user[j]) {
+                    tem.push(user[i]);
+                }
+            }
+        }
+        document.write(tem);
+    </script>
+</body>
+
+</html>
